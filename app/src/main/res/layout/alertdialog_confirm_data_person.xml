@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/round_edittext_borders"
+    >
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TextInputLayoutConfirmCEP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/EditTextConfirmCep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/text_white_color"
+            android:textColor="@color/text_white_color"
+            android:textColorHint="@color/text_white_color"
+            android:hint="@string/hint_cep"
+            android:enabled="false"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TextInputLayoutConfirmStreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TextInputLayoutConfirmCEP"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/EditTextConfirmStreet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_street"
+            android:backgroundTint="@color/text_white_color"
+            android:textColor="@color/text_white_color"
+            android:textColorHint="@color/text_white_color"
+            android:enabled="false"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TextInputLayoutConfirmNeighborhood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TextInputLayoutConfirmStreet"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/EditTextConfirmNeighborhood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/text_white_color"
+            android:textColor="@color/text_white_color"
+            android:textColorHint="@color/text_white_color"
+            android:hint="@string/hint_neighborhood"
+            android:enabled="false"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TextInputLayoutConfirmState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TextInputLayoutConfirmNeighborhood"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/EditTextConfirmState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/text_white_color"
+            android:textColor="@color/text_white_color"
+            android:textColorHint="@color/text_white_color"
+            android:hint="@string/hint_state"
+            android:enabled="false"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/ButtonAgree"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:background="@drawable/round_button_orders"
+        android:text="Sim, é esse"
+        android:textColor="@color/text_white_color"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@id/TextInputLayoutConfirmState"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/ButtonDisagree"
+        android:layout_width="160dp"
+        android:layout_height="32dp"
+        android:background="@drawable/round_button_orders"
+        android:text="Não, inserir outro"
+        android:textColor="@color/text_white_color"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@id/TextInputLayoutConfirmState"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/ButtonAgree"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

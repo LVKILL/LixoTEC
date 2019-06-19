@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <TextView
+        android:id="@+id/TextViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/TextViewHour"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="26/05/2019"
+        android:textColor="@color/text_white_color"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+
+    <TextView
+        android:id="@+id/TextViewHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="14:00"
+        android:textColor="@color/text_white_color"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/TextViewStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="AGENDADA"
+        android:textColor="@color/text_white_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TextViewHour"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>

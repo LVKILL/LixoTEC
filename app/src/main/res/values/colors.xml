@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#103724</color>
+    <color name="colorPrimaryDark">#103724</color>
+    <color name="colorAccent">#64DF98</color>
+    <color name="background_color">#134029</color>
+    <color name="background_plus_address_fab">#64DF98</color>
+    <color name="wrong_date_indicator">#FB2D00</color>
+    <color name="text_white_color">#ffffff</color>
+</resources>

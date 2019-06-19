@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:id="@+id/first_group">
+        <item
+            android:id="@+id/nav_perfil"
+            android:title="@string/text_view_perfil_button"
+            />
+    </group>
+
+    <group android:id="@+id/seventh_group">
+        <item android:id="@+id/nav_menu_inicial"
+            android:title="@string/text_view_main_home"
+            />
+    </group>
+
+    <group android:id="@+id/second_group">
+        <item
+            android:id="@+id/nav_agendar"
+            android:title="@string/item_first_main_button" />
+    </group>
+    <group android:id="@+id/third_group">
+        <item
+            android:id="@+id/nav_consultar_pontos"
+            android:title="@string/item_second_main_button" />
+    </group>
+    <group android:id="@+id/fourth_group">
+        <item
+            android:id="@+id/nav_consultar_historico"
+            android:title="@string/item_third_main_button" />
+        </group>
+
+    <group android:id="@+id/sixth_group">
+        <item
+            android:id="@+id/nav_sair"
+            android:title="@string/item_fifth_main_button"/>
+    </group>
+
+    <group android:id="@+id/nav_last_separator">
+        <item
+            android:title=""
+            android:visible="false"
+            />
+    </group>
+</menu>

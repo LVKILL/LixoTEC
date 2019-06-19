@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.PreRegistrerActivity"
+    android:background="@color/background_color"
+    >
+
+    <Button
+        android:id="@+id/ButtonRegisterPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button_register"
+        android:text="@string/button_register_person"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@id/CenterVerticalLine"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <View
+        android:id="@+id/CenterVerticalLine"
+        android:layout_width="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/ButtonRegisterCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button_register"
+        android:text="@string/button_register_company"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/CenterVerticalLine"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+</android.support.constraint.ConstraintLayout>

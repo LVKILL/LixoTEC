@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">LixoTEC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hint_username">LOGIN</string>
+    <string name="hint_password">SENHA</string>
+
+    <string name="button_login">ENTRAR</string>
+    <string name="text_view_perfil_button">Meu Perfil</string>
+    <string name="text_view_first_main_button">Agendar \nColeta</string>
+    <string name="text_view_second_main_button">Consultar Pontos de Coleta</string>
+    <string name="text_view_third_main_button">Consultar \nHistorico</string>
+    <string name="text_view_fourth_main_button">Atualizar \nCadastro</string>
+
+    <string name="item_first_main_button">Agendar Coleta</string>
+    <string name="item_second_main_button">Consultar Pontos de Coleta</string>
+    <string name="item_third_main_button">Consultar Historico</string>
+    <string name="item_fourth_main_button">Sincronizar Dados</string>
+    <string name="item_fifth_main_button">Sair</string>
+
+    <string name="text_view_register">NÃO POSSUI UMA CONTA?\n CADASTRE-SE AQUI</string>
+    <string name="text_view_warnings_label">Leia o regulamento para a coleta e \nconfirme abaixo:</string>
+    <string name="text_view_first_condition">- Mínimo 5 itens</string>
+    <string name="text_view_second_condition">- Itens que não são recolhidos : \n Lâmpadas, cartuchos de impressora, toner,\ntubo de TV, monitor antigo e plástico.</string>
+    <string name="text_view_third_condition">- Itens que podem ser recolhidos:\nEletrônicos, eletrodomésticos, e equipamentos de informática</string>
+    <string name="button_agree">LI E CONCORDO</string>
+    <string name="button_return">RETORNAR AO MENU INICIAL</string>
+    <string name="text_view_select_address">Selecione o Endereço que deseja agendar a coleta ou adicione um novo endereço</string>
+    <string name="text_view_address_example">Av. Araucária, 780 - Vila A, Foz do Iguççu - PR, 85860-000</string>
+    <string name="button_register_company">Cadastrar Empresa</string>
+    <string name="button_register_person">CADASTRAR PESSOA</string>
+    <string name="text_view_register_person">Olá, seja bem vindo. Insira seus dados para realizar o cadastro:</string>
+    <string name="hint_complete_name">Nome Completo</string>
+    <string name="hint_cpf">CPF</string>
+    <string name="hint_email">Email de contato</string>
+    <string name="hint_username_register">Nome de acesso</string>
+    <string name="hint_password_register">Senha de acesso</string>
+    <string name="button_register">Continuar</string>
+    <string name="hint_confirm_password">Confirmar senha de acesso</string>
+    <string name="hint_phone">Número de celular</string>
+    <string name="hint_fantasy_name">Nome Fantasia</string>
+    <string name="hint_social_reason">Razão Social</string>
+    <string name="hint_cnpj">CNPJ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_view_register_address">Informe seu endereço</string>
+    <string name="hint_cep">CEP</string>
+    <string name="hint_street">Rua / Avenida</string>
+    <string name="hint_neighborhood">Bairro</string>
+    <string name="hint_city_state">Nome da cidade, Sigla do estado</string>
+    <string name="hint_number">Número</string>
+    <string name="hint_complement">Complementos</string>
+    <string name="button_confirm_register">Registrar</string>
+    <string name="hint_state">UF</string>
+    <string name="action_synchronize">Sincronizar Dados</string>
+    <string name="action_logout">Desconectar</string>
+    <string name="text_view_select_date_time">Selecione a data e o horário que deseja agendar a coleta</string>
+    <string name="button_today">Hoje</string>
+    <string name="button_tomorrow">Amanhã</string>
+    <string name="button_another_day">Selecionar outro dia</string>
+    <string name="text_view_free_times_label">Horarios disponíveis para </string>
+    <string name="button_continue">Prosseguir</string>
+    <string name="Text_view_take_picture">Tirar foto</string>
+    <string name="text_view_take_picture_label">Tire uma foto do material a ser recolhido acionando a câmera no botão abaixo.</string>
+    <string name="text_view_confirm_address">Endereço :</string>
+    <string name="text_view_confirm_date">DATA :</string>
+    <string name="text_view_confirm_hour">HORA :</string>
+
+    <string name="selected_address">Confirme o endereço selecionado</string>
+    <string name="warning_text">Aviso</string>
+    <string name="button_update">Atualizar</string>
+    <string name="text_view_fifth_main_button">Solicitar \nCertificado</string>
+    <string name="text_view_coleta_book">Agenda de \nColetas</string>
+    <string name="text_view_coleta_points">Cadastrar/Editar \nPontos de Coleta</string>
+    <string name="text_view_consult_coletas">Consultar Histórico</string>
+    <string name="text_view_new_subadmin">Cadastrar Sub \nAdministrador</string>
+    <string name="text_view_register_admin">Insira os dados do Administrador</string>
+    <string name="text_view_titulo_data_coleta">Confirmar Horário</string>
+    <string name="text_view_select_date">Verifique as coletas de uma data específica</string>
+    <string name="text_view_label_coletas_empty">Não existem coletas agendadas neste dia</string>
+    <string name="text_view_label_coletas">Coletas foram agendadas neste dia</string>
+    <string name="error_webservice_connection">Ocorreu um erro ao se conectar com o serviço online</string>
+    <string name="text_view_code">Código :</string>
+    <string name="text_view_message">Mensagem :</string>
+    <string name="text_view_mensagem_label">Mensagem Recebida</string>
+    <string name="button_mark_as_done">Marcar como realizada</string>
+    <string name="text_view_welcome_message">Olá,</string>
+    <string name="text_view_main_home">Menu Inicial</string>
+    <string name="button_a_day">Selecione uma data</string>
+</resources>
